@@ -18,15 +18,14 @@ The analysis was performed end-to-end using **Python and the Pandas library**, d
    * Calculated raw R, F, and M metrics for each unique customer.  
    * Used the pd.qcut function with duplicates='drop' to robustly assign scores (1-5) based on quintiles, creating the final RFM\_Score.  
 3. **Segmentation & Visualization:**  
-   * Applied custom business logic to assign customers to 7 strategic segments (e.g., Champions, New Customers, Lost Customers).  
+   * Applied custom business logic to assign customers to 7 strategic segments (e.g., BestCustomers, New Customers, Lost Customers).  
    * Generated visualizations (Bar and Pie charts) to summarize customer count and revenue contribution by segment.
 
 ## **Core Findings**
 
-The segmentation revealed a severe retention problem masked by high acquisition:
-
-* **High Churn:** The **"Lost Customers"** segment is the single largest group ( of the base).  
-* **Acquisition Focus:** The **"New Customers"** segment is the second largest (), indicating strong acquisition but weak immediate follow-up.
+The segmentation revealed a serious retention problem masked by high acquisition:
+  
+* **Acquisition Focus:** The **"New Customers"** segment is the largest (), indicating strong acquisition but weak immediate follow-up.
 
 ## **Business Recommendation**
 
